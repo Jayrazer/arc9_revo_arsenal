@@ -275,7 +275,6 @@ SWEP.Animations = {
 		Source = "reloadstart",
 		Mult = 1,
 		MinProgress = 1,
-		FireASAP = true,
 		EventTable = {
 			{ s = pathAuto5 .. "deploy.wav", t = 0.1, v = 0.6 },
 		}
@@ -284,7 +283,6 @@ SWEP.Animations = {
 		Source = "reloadstart",
 		Mult = 1,
 		MinProgress = 1,
-		FireASAP = true,
 		EventTable = {
 			{ s = pathAuto5 .. "deploy.wav", t = 0.1, v = 0.6 },
 		}
@@ -293,7 +291,7 @@ SWEP.Animations = {
 		Source = "reloadinsert",
 		Mult = 1,
 		MinProgress = 0.4,
-		FireASAP = true,
+		FireASAP = false,
 		EventTable = {
 			{ s = pathAuto5 .. "shell.wav", t = 0.1, v = 0.6 },
 		}
