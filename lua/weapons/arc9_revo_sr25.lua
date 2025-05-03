@@ -8,7 +8,7 @@ SWEP.Spawnable = true
 SWEP.Slot = 3 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
-SWEP.PrintName = "KAC SR-25"
+SWEP.PrintName = "SR-25"
 SWEP.Description = "The SR-25 is a marksman rifle designed by Eugene Stoner after joining Knight's Armament, and is essentially an improved AR-10 system with elements taken from the M16. It was primarily used by USSOCOM in a modified form known as the Mk 11 MOD 0 and has since been developed into the M110 SASS."
 
 SWEP.Class = "Marksman Rifle" -- In the Customization Menu
@@ -25,7 +25,7 @@ SWEP.Trivia = {
 SWEP.Credits = {
 	["Model & textures"] = "3DGunsmith",
 	["Animations"] = "Khris",
-	["Sounds"] = "Navarro, New World Interactive",
+	["Sounds"] = "oneshotofficial, Navarro, New World Interactive",
 	["Lua"] = "speedonerd"
 }
 
@@ -260,8 +260,8 @@ SWEP.Animations = {
 	["reload"] = {
 		Source = "reload",
 		Mult = 0.9,
-		MinProgress = 2.1,
-		RefillProgress = 2,
+		MinProgress = 0.9,
+		RefillProgress = 0.65,
 		FireASAP = true,
 		EventTable = {
 			{ s = pathAR10 .. "raise_fist_up.wav", t = 0.1, v = 0.6 },
@@ -275,8 +275,8 @@ SWEP.Animations = {
 	["reload_empty"] = {
 		Source = "emptyreload",
 		Mult = 0.9,
-		MinProgress = 2.5,
-		RefillProgress = 2.4,
+		MinProgress = 0.9,
+		RefillProgress = 0.5,
 		FireASAP = true,
 		EventTable = {
 			{ s = pathAR10 .. "raise_fist_up.wav", t = 0.1, v = 0.6 },

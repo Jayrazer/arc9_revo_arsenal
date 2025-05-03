@@ -8,7 +8,7 @@ SWEP.Spawnable = true
 SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
-SWEP.PrintName = "SIG SG 510"
+SWEP.PrintName = "SG 510"
 SWEP.Description = "The SG 510 is the civilian-market and export variant of the Sturmgewehr 57, Switzerland's primary battle rifle from 1957 to 1990. The rifle itself saw limited use in combat due to Switzerland's neutrality but is still regarded as one of the finest battle rifles of the Cold War. \nThis particular example is a gunsmith-custom 510-1 in its original 7.5x55mm chambering with parts from the 7.62x51mm SG 510-4 AMT model and a military select-fire trigger group."
 
 SWEP.Class = "Battle Rifle" -- In the Customization Menu
@@ -26,7 +26,7 @@ SWEP.Credits = {
 	["Model & textures"] = "Toadie2k",
 	["Source Engine compile and materials"] = "Cliffton_Vlodhammer",
 	["Animations"] = "Khris",
-	["Sounds"] = "Navarro, Battlestate Games",
+	["Sounds"] = "oneshotofficial, Navarro, Battlestate Games",
 	["Lua"] = "speedonerd"
 }
 

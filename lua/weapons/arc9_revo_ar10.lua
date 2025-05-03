@@ -8,7 +8,7 @@ SWEP.Spawnable = true
 SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
-SWEP.PrintName = "ArmaLite AR-10"
+SWEP.PrintName = "AR-10"
 SWEP.Description = "The AR-10 is the larger counterpart to the more well-known AR-15, both designed by Eugene Stoner in the postwar period. While the AR-15 would go on to take over the world, the AR-10 achieved limited success, despite being a technological breakthrough with many advantages over contemporary battle rifles. Much like the later AR-18, the weapon achieved success indirectly by inspiring or being the basis for successful future firearms, such as the SR-25."
 
 SWEP.Class = "Battle Rifle" -- In the Customization Menu
@@ -25,7 +25,7 @@ SWEP.Trivia = {
 SWEP.Credits = {
 	["Model & textures"] = "Unknown",
 	["Animations"] = "Khris",
-	["Sounds"] = "Navarro, New World Interactive",
+	["Sounds"] = "oneshotofficial, Navarro, New World Interactive",
 	["Lua"] = "speedonerd"
 }
 
@@ -261,8 +261,8 @@ SWEP.Animations = {
 	["reload"] = {
 		Source = "reloadretro",
 		Mult = 0.9,
-		MinProgress = 2.1,
-		RefillProgress = 2,
+		MinProgress = 0.9,
+		RefillProgress = 0.65,
 		FireASAP = true,
 		EventTable = {
 			{ s = pathAR10 .. "raise_fist_up.wav", t = 0.1, v = 0.6 },
@@ -273,30 +273,11 @@ SWEP.Animations = {
 			{ s = pathAR10 .. "maginsert.wav", t = 2.1, v = 0.6 },
 		}
 	},
-	-- ["reload_empty"] = {
-		-- Source = "reloadempty",
-		-- MinProgress = 2.1,
-		-- RefillProgress = 2,
-		-- DropMagazineTime = 0.8,
-		-- FireASAP = true,
-		-- EventTable = {
-			-- { s = pathAR10 .. "foley1.wav", t = 0.1, v = 0.6 },
-			-- { s = pathAR10 .. "magrel.wav", t = 0.6, v = 0.6 },
-			-- { s = pathAR10 .. "magout.wav", t = 0.65, v = 0.6 },
-			-- { s = pathAR10 .. "magfetch.wav", t = 1, v = 0.6 },
-			-- { s = pathAR10 .. "magin.wav", t = 2, v = 0.6 },
-			-- { s = pathAR10 .. "foley2.wav", t = 2.4, v = 0.6 },
-			-- { s = pathAR10 .. "boltback2.wav", t = 3, v = 0.6 },
-			-- { s = pathAR10 .. "boltforward.wav", t = 3.2, v = 0.6 },
-			-- { s = pathAR10 .. "foley1.wav", t = 3.3, v = 0.6 },
-			-- { s = pathAR10 .. "shoulder.wav", t = 3.7, v = 0.6 },
-		-- }
-	-- },
 	["reload_empty"] = {
 		Source = "emptyreloadretro",
 		Mult = 0.9,
-		MinProgress = 2.5,
-		RefillProgress = 2.4,
+		MinProgress = 0.9,
+		RefillProgress = 0.5,
 		FireASAP = true,
 		EventTable = {
 			{ s = pathAR10 .. "raise_fist_up.wav", t = 0.1, v = 0.6 },
