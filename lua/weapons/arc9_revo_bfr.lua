@@ -8,8 +8,8 @@ SWEP.Spawnable = true
 SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
-SWEP.PrintName = "BFR"
-SWEP.Description = ""
+SWEP.PrintName = "BFR .45-70"
+SWEP.Description = "The BFR is a mammoth hunting revolver that comes in a variety of calibers, ranging from typical handgun calibers all the way up to rifle calibers. It is modeled on the Ruger Blackhawk, which in turn is a modern interpretation of the Colt Single-Action Army revolver. \n \"BFR\" stands for \"Big-Framed Revolver\" though various other interpretations of the initialism are \"Biggest, Finest Revolver,\" \"Big Friendly Revolver,\" and, of course, \"Big F**kin' Revolver.\""
 
 SWEP.Class = "Revolver" -- In the Customization Menu
 SWEP.SubCategory = "Handguns" -- In the Spawnmenu
@@ -19,7 +19,7 @@ SWEP.Trivia = {
     ["Caliber"] = ".45-70 Govt.",
     ["Mechanism"] = "Single-action",
     ["Country of Origin"] = "United States",
-    ["Year Introduced"] = "2011"
+    ["Year Introduced"] = "2001"
 }
 
 SWEP.Credits = {
@@ -294,7 +294,7 @@ SWEP.Animations = {
 	["reload_finish"] = {
 		Source = "reloadend",
 		Mult = 0.8,
-		MinProgress = 0.8,
+		MinProgress = 0.9,
 		FireASAP = true,
 		EventTable = {
 			{ s = pathBFR .. "saagateclose.wav", t = 0.2, v = 0.6 },
