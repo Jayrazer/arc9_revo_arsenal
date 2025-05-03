@@ -5,25 +5,25 @@ SWEP.Spawnable = true
 
 ---- FUNDAMENTALS
 
-SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
+SWEP.Slot = 3 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
-SWEP.PrintName = "ArmaLite AR-10"
-SWEP.Description = "The AR-10 is the larger counterpart to the more well-known AR-15, both designed by Eugene Stoner in the postwar period. While the AR-15 would go on to take over the world, the AR-10 achieved limited success, despite being a technological breakthrough with many advantages over contemporary battle rifles. Much like the later AR-18, the weapon achieved success indirectly by inspiring or being the basis for successful future firearms, such as the SR-25."
+SWEP.PrintName = "KAC SR-25"
+SWEP.Description = "The SR-25 is a marksman rifle designed by Eugene Stoner after joining Knight's Armament, and is essentially an improved AR-10 system with elements taken from the M16. It was primarily used by USSOCOM in a modified form known as the Mk 11 MOD 0 and has since been developed into the M110 SASS."
 
-SWEP.Class = "Battle Rifle" -- In the Customization Menu
+SWEP.Class = "Marksman Rifle" -- In the Customization Menu
 SWEP.SubCategory = "Rifles" -- In the Spawnmenu
 
 SWEP.Trivia = {
-    ["Manufacturer"] = "ArmaLite",
+    ["Manufacturer"] = "Knight's Armament Company",
     ["Caliber"] = "7.62x51mm NATO",
     ["Mechanism"] = "Gas-operated rotating bolt",
     ["Country of Origin"] = "United States",
-    ["Year Introduced"] = "1956"
+    ["Year Introduced"] = "1990"
 }
 
 SWEP.Credits = {
-	["Model & textures"] = "Unknown",
+	["Model & textures"] = "3DGunsmith",
 	["Animations"] = "Khris",
 	["Sounds"] = "Navarro, New World Interactive",
 	["Lua"] = "speedonerd"
@@ -47,8 +47,8 @@ SWEP.CamQCA = 0
 SWEP.CamOffsetAng = Angle(0, 90, 180)
 
 ---- View & Worldmodel
-SWEP.ViewModel = "models/weapons/khrcw2/ar10.mdl"
-SWEP.WorldModel = "models/weapons/khrcw2/w_ar10.mdl"
+SWEP.ViewModel = "models/weapons/khrcw2/sr25.mdl"
+SWEP.WorldModel = "models/weapons/khrcw2/w_sr25.mdl"
 
 SWEP.MirrorVMWM = true
 SWEP.NoTPIKVMPos = true
@@ -164,14 +164,13 @@ SWEP.SwayAddSights = 1
 SWEP.BarrelLength = 40
 
 -- Shooting and Firemodes
-SWEP.RPM = 700 -- How fast gun shoot
+SWEP.RPM = 500 -- How fast gun shoot
 SWEP.HeatCapacity = 120 * 1.5 -- For suppresors; how many shots for full heat With big silencer (Small silencers will make this number lower down to 70%)
 
 SWEP.Num = 1 -- How many bullets shot at once
 
 SWEP.Firemodes = {
-    { Mode = 1 },
-    { Mode = -1 }
+    { Mode = 1 }
 }
 
 SWEP.ShootPitch = 90
@@ -191,7 +190,7 @@ SWEP.NPCWeight = 60
 
 -- Iron Sight and Sight Info
 SWEP.IronSights = {
-     Pos = Vector(-2.63, -1, 0.8),
+     Pos = Vector(-2.64, -1.1, 0.85),
      Ang = Angle(0.02, 0.1, 0),
      Magnification = 1.15,
      ViewModelFOV = 55,
@@ -259,7 +258,7 @@ SWEP.Animations = {
 		}
     },
 	["reload"] = {
-		Source = "reloadretro",
+		Source = "reload",
 		Mult = 0.9,
 		MinProgress = 2.1,
 		RefillProgress = 2,
@@ -273,27 +272,8 @@ SWEP.Animations = {
 			{ s = pathAR10 .. "maginsert.wav", t = 2.1, v = 0.6 },
 		}
 	},
-	-- ["reload_empty"] = {
-		-- Source = "reloadempty",
-		-- MinProgress = 2.1,
-		-- RefillProgress = 2,
-		-- DropMagazineTime = 0.8,
-		-- FireASAP = true,
-		-- EventTable = {
-			-- { s = pathAR10 .. "foley1.wav", t = 0.1, v = 0.6 },
-			-- { s = pathAR10 .. "magrel.wav", t = 0.6, v = 0.6 },
-			-- { s = pathAR10 .. "magout.wav", t = 0.65, v = 0.6 },
-			-- { s = pathAR10 .. "magfetch.wav", t = 1, v = 0.6 },
-			-- { s = pathAR10 .. "magin.wav", t = 2, v = 0.6 },
-			-- { s = pathAR10 .. "foley2.wav", t = 2.4, v = 0.6 },
-			-- { s = pathAR10 .. "boltback2.wav", t = 3, v = 0.6 },
-			-- { s = pathAR10 .. "boltforward.wav", t = 3.2, v = 0.6 },
-			-- { s = pathAR10 .. "foley1.wav", t = 3.3, v = 0.6 },
-			-- { s = pathAR10 .. "shoulder.wav", t = 3.7, v = 0.6 },
-		-- }
-	-- },
 	["reload_empty"] = {
-		Source = "emptyreloadretro",
+		Source = "emptyreload",
 		Mult = 0.9,
 		MinProgress = 2.5,
 		RefillProgress = 2.4,
