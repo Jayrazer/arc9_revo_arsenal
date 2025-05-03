@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"models/khrcw2/xm177/M4a1_rec_d"
+	"$bumpmap" 	"models/khrcw2/xm177/M4a1_rec_n"
+	"$phongexponenttexture" "models/khrcw2/xm177/M4a1_rec_s"
+	"$nocull" "1"
+
+	"$phong"                      "1"
+	"$phongboost"                 "0.35"
+	"$phongexponent"		"35"
+	//"$phongfresnelranges"         "[5 10 10]"
+	"$phongtint"		      "[1 0.9 0.9]"
+	"$phongalbedotint"            "1"
+	"$phongalbedoboost"           "145"
+
+	"$envmap"                     "env_cubemap"
+	"$envmaptint"                 "[.035 .035 .055]"
+	"$halflambert"                "1"
+	"$basetexturealphaenvmapmask" "1"
+	"$normalmapalphaenvmapmask"		"1"
+	"$normalmapalphaphongmask"	"1"
+
+}

@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/khrcw2/xm177/polymer_color"
+	"$bumpmap" "models/khrcw2/xm177/polymer_normal"
+	"$normalmapalphaenvmapmask" 	"1"
+
+	"$phong" 		"1"
+	"$phongexponenttexture"	"models/khrcw2/xm177/polymer_rough"
+	"$phongboost" ".15"
+	"$phongalbedotint" 			"1"
+	"$phongfresnelranges" "[1 3 5]"
+
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" 			"1"
+	"$envmapFresnelMinMaxExp" "[0 5 .4]"
+	"$envmaptint" "[.1 .1  .1]"
+
+	"$ambientocclusion" "1"
+	"$nocull" "1"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\khrcw2\Auto5\auto5_dA"
+	"$bumpmap"	"models\khrcw2\Auto5\auto5_n"
+	//"$color2"	"[.7 .7 .7]"
+
+	"$phongexponent" "15"
+	"$phongalbedotint" 3
+	"$phongtint"            "[1 .8 .7]"	
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 2.15 1.75]"
+}

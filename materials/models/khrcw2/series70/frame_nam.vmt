@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\khrcw2\series70\frame"
+	"$bumpmap" "models\khrcw2\series70\frame_norm"
+    	"$envmap" "env_cubemap"
+    	"$normalmapalphaenvmapmask" 1
+

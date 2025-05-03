@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	$basetexture "models/khrcw2/ar10/ar_10_d"
+	$bumpmap "models/khrcw2/ar10/ar_10_n"
+
+	$phong 1
+	$phongexponenttexture "models/khrcw2/ar10/ar_10_s"
+	$phongfresnelranges "[0.54 0.77 1]"
+	$phongtint "[0.45 0.45 0.45]"
+	$phongboost 1.55
+	$phongalbedoboost 1.79
+
+	$color2 "[0.80 0.80 0.80]"
+}

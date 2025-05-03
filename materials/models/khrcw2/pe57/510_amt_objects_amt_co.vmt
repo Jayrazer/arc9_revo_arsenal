@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\khrcw2\pe57\510_AMT_Objects_AMT_co"
+	"$bumpmap" "models\khrcw2\pe57\510_AMT_Objects_AMT_nohq"
+	"$phong"			"1"
+	"$phongexponent"		"45"
+	"$phongboost"			"2"
+	"$phongfresnelranges"		"[.2 4 1]"
+	"$normalmapalphaenvmapmask"	"1"
+	"$envmapsaturation"		"1"
+
+	"$envmaptint" "[.1 .1 .1]"
+	"$phongwarptexture"	"models\khrcw2\pe57\510_AMT_Objects_AMT_g"
+	"$envmap" "env_cubemap"
+}

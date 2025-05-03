@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\khrcw2\m16\US_M16_DIFF"
+	"$bumpmap" "models\khrcw2\m16\US_M16_NORM"
+	
+		"$phong" "1"						
+	"$phongboost" "0.1"
+	"$phongexponent" "5"						
+	"$phongfresnelranges"	"[ .2 1.2 8]"	
+	"$halflambert" 1
+	"$PhongAlbedoTint" "1"		
+
+
+
+	"$phongexponenttexture" "models\khrcw2\m16\US_M16_S"
+
+	
+}

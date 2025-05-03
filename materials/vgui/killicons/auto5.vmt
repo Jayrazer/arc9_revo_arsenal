@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/killicons/auto6"
+	"$translucent" 1
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}
+

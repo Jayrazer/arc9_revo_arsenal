@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\khrcw2\Auto5\auto5_dA"
+	"$bumpmap"	"models\khrcw2\Auto5\auto5_n"
+	//"$color2"	"[0.6 0.62 0.65]"
+
+	//"$phongexponenttexture"	"models\khrcw2\Auto5\auto5_s"
+	"$phongexponent" "50"
+	"$phongalbedotint" 3
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 2.15 1.75]"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint"	"[.04 .04 .04]"
+	"$envmapfresnel"	"1.7"
+}

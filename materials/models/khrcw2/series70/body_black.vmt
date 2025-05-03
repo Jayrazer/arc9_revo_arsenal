@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 			"models\khrcw2\series70\body_black"
+	"$bumpmap"			"models\khrcw2\series70\body_black_nml"
+	"$phongexponenttexture" 	"models\khrcw2\series70\body_black_spc"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.1 .1 .1]"
+	"$envmapcontrast" .7
+	"$phong" 1
+	"$phongboost" 6
+	"$phongfresnelranges" "[.2 1 0]"
+//	"$phongalbedotint" 1
+}

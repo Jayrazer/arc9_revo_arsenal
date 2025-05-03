@@ -1,0 +1,15 @@
+vertexlitgeneric
+{
+	// MAIN SETTINGS
+	$baseTexture 				"models\khrcw2\Auto5\shell_dA3"
+	$bumpmap 					"models\khrcw2\Auto5\shell_n"
+
+	// PHONG SHADING
+	$phong                      1
+	$phongboost                 2
+	$phongfresnelranges         "[.5 1.5 5.9]"
+	$phongalbedotint            1
+	$phongexponent 				10
+	$normalmapalphaphongmask    1
+	//$BasemapAlphaPhongMask		1
+}

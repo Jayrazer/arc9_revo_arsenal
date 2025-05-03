@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"khrcw2\attachments\ins2rails\a_mount_galil_dm"
+	"$bumpmap" 		"khrcw2/attachments/ins2rails/a_mount_galil_nm"
+
+	 $normalmapalphaenvmapmask 	"1"
+
+	 $phongtint 			"[.6 .8 1]"
+	"$envmapfresnel"	"0.5"
+	"$envmap"			"env_cubemap"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+	"$normalmapalphaenvmapmask"	"1"
+
+	 $phong 				"1"
+	//$PhongAlbedoTint 		"0"	
+	//$BasemapLuminancePhongMask	"1"
+	
+	$phongexponent 			"40"
+	$phongboost 			"1"
+	$phongfresnelranges		"[.5 1 3]"
+}

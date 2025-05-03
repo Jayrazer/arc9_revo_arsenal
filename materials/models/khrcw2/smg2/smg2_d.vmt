@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\khrcw2\smg2\smg2_D"
+	"$bumpmap" "models\khrcw2\smg2\smg2_n"
+
+	//"$selfillum" 1
+	//"$selfillumtint"			"[1 1 1]"
+	//"selfillummask" "models\khrcw2\smg2\smg2_glow"
+
+	"$detail" "models\khrcw2\smg2\smg2_glow"
+	"$detailscale" 1        //scales the detail texture to same size as diffuse.
+	"$detailblendfactor" 0.15  //lower values make the texture less visible. 0.0 - 1.0
+	"$detailblendmode" 5    //6 also works.
+
+	"$phong" 1
+	"$phongexponent" "40"
+	"$phongboost" 3
+	//"$phongfresnelranges" "[1 1 1]"
+	"$phongalbedotint" 1
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.2 .2 .2]"
+//	"$envmapcontrast" .5
+    	"$envmapsaturation" 1
+
+	//"$rimlight" "1"
+	//"$rimlightexponent" "25"
+	//"$rimlightboost" "0.125"
+}
