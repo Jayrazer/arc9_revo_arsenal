@@ -9,7 +9,7 @@ SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "AR-10"
-SWEP.Description = "The AR-10 is the larger counterpart to the more well-known AR-15, both designed by Eugene Stoner in the postwar period. While the AR-15 would go on to take over the world, the AR-10 achieved limited success, despite being a technological breakthrough with many advantages over contemporary battle rifles. Much like the later AR-18, the weapon achieved success indirectly by inspiring or being the basis for successful future firearms, such as the SR-25."
+SWEP.Description = "The AR-10 is the larger counterpart to the more well-known AR-15, both designed by Eugene Stoner in the postwar period. While the AR-15 would go on to take over the world, the AR-10 achieved limited success, despite being a technological breakthrough with many advantages over contemporary battle rifles. Much like the later AR-18, the weapon achieved success indirectly by inspiring or being the basis for successful future firearms, such as the SR-25. \n\nOriginally from Khris REVO."
 
 SWEP.Class = "Battle Rifle" -- In the Customization Menu
 SWEP.SubCategory = "Rifles" -- In the Spawnmenu

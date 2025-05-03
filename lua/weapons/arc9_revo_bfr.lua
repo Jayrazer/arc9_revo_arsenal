@@ -9,7 +9,7 @@ SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "BFR .45-70"
-SWEP.Description = "The BFR is a mammoth hunting revolver that comes in a variety of calibers, ranging from typical handgun calibers all the way up to rifle calibers. It is modeled on the Ruger Blackhawk, which in turn is a modern interpretation of the Colt Single-Action Army revolver. \n \"BFR\" stands for \"Big-Framed Revolver\" though various other interpretations of the initialism are \"Biggest, Finest Revolver,\" \"Big Friendly Revolver,\" and, of course, \"Big F**kin' Revolver.\""
+SWEP.Description = "The BFR is a mammoth hunting revolver that comes in a variety of calibers, ranging from typical handgun calibers all the way up to rifle calibers. It is modeled on the Ruger Blackhawk, which in turn is a modern interpretation of the Colt Single-Action Army revolver. \n \"BFR\" stands for \"Big-Framed Revolver\" though various other interpretations of the initialism are \"Biggest, Finest Revolver,\" \"Big Friendly Revolver,\" and, of course, \"Big F**kin' Revolver.\" \n\nOriginally from Khris REVO."
 
 SWEP.Class = "Revolver" -- In the Customization Menu
 SWEP.SubCategory = "Handguns" -- In the Spawnmenu

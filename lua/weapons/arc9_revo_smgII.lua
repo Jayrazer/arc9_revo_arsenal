@@ -9,7 +9,7 @@ SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "SMG II"
-SWEP.Description = ""
+SWEP.Description = "The SMG II is a prototype submachine gun developed by H&K at the request of the U.S. Navy to replace their stock of MP5s. The weapon features several advanced features, such as a velocity switch that allows the user to swap between supersonic and subsonic velocities. \nUltimately, the Navy elected not to adopt the SMG II, though elements of its design would later be used in the MP7. \n\nOriginally from Khris REVO."
 
 SWEP.Class = "Submachine Gun" -- In the Customization Menu
 SWEP.SubCategory = "SMGs" -- In the Spawnmenu

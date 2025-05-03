@@ -9,7 +9,7 @@ SWEP.Slot = 3 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "SR-25"
-SWEP.Description = "The SR-25 is a marksman rifle designed by Eugene Stoner after joining Knight's Armament, and is essentially an improved AR-10 system with elements taken from the M16. It was primarily used by USSOCOM in a modified form known as the Mk 11 MOD 0 and has since been developed into the M110 SASS."
+SWEP.Description = "The SR-25 is a marksman rifle designed by Eugene Stoner after joining Knight's Armament, and is essentially an improved AR-10 system with elements taken from the M16. It was primarily used by USSOCOM in a modified form known as the Mk 11 MOD 0 and has since been developed into the M110 SASS. \n\nOriginally from Khris REVO."
 
 SWEP.Class = "Marksman Rifle" -- In the Customization Menu
 SWEP.SubCategory = "Rifles" -- In the Spawnmenu

@@ -9,7 +9,7 @@ SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "RK 95 TP"
-SWEP.Description = "The RK 95 is an improved version of the earlier RK 62 rifle, a Finnish AK-47 derrivative, with features such as a folding stock and ambidexterous fire selector. Rather than outright replacing the older rifle, it has instead been adopted in limited numbers by Special Forces units. \nThe Finnish AK is perhaps most notable for being the rifle on which the Israeli Galil is based on."
+SWEP.Description = "The RK 95 is an improved version of the earlier RK 62 rifle, a Finnish AK-47 derrivative, with features such as a folding stock and ambidexterous fire selector. Rather than outright replacing the older rifle, it has instead been adopted in limited numbers by Special Forces units. \nThe Finnish AK is perhaps most notable for being the rifle on which the Israeli Galil is based on.\n\nOriginally from Sharksenal."
 
 SWEP.Class = "Assault Rifle" -- In the Customization Menu
 SWEP.SubCategory = "Rifles" -- In the Spawnmenu

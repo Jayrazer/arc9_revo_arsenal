@@ -9,7 +9,7 @@ SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "XM177"
-SWEP.Description = "A short carbine variant of the M16 developed and deployed during the Vietnam War, which is known by many common names such as the Commando or the CAR-15. This early carbine variant would lay the groundwork for the later M4 Carbine."
+SWEP.Description = "A short carbine variant of the M16 developed and deployed during the Vietnam War, which is known by many common names such as the Commando or the CAR-15. This early carbine variant would lay the groundwork for the later M4 Carbine.\n\nOriginally from Khris REVO."
 
 SWEP.Class = "Carbine" -- In the Customization Menu
 SWEP.SubCategory = "Rifles" -- In the Spawnmenu

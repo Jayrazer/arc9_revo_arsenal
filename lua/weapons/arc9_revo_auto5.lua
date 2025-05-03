@@ -9,7 +9,7 @@ SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "Auto-5"
-SWEP.Description = "The Auto-5 was the first successful self-loading shotgun design and one of the first-ever commerically viable self-loading firearms as a whole. The weapon gets its name from its total capacity: 4 rounds in the tube magazine and 1 in the chamber. \nSeveral copies of the weapon have been produced by various companies, including Remington and Savage Arms."
+SWEP.Description = "The Auto-5 was the first successful self-loading shotgun design and one of the first-ever commerically viable self-loading firearms as a whole. The weapon gets its name from its total capacity: 4 rounds in the tube magazine and 1 in the chamber. \nSeveral copies of the weapon have been produced by various companies, including Remington and Savage Arms. \n\nOriginally from Khris REVO."
 
 SWEP.Class = "Shotgun" -- In the Customization Menu
 SWEP.SubCategory = "Shotguns" -- In the Spawnmenu

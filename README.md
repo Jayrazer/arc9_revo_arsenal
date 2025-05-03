@@ -29,6 +29,7 @@ Rifles:
 Shotguns:
 - Browning Auto-5
 - Ithaca Model 37
+- Sjogren
 
 Snipers:
 - Barret MRAD
