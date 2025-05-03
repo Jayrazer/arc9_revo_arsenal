@@ -1,0 +1,23 @@
+//h?rjenger;) was here 
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/cw2_shark/p90/weapon_fn_p90_57x28_LOD0_diff"
+	"$bumpmap" "models/weapons/cw2_shark/p90/weapon_fn_p90_57x28_LOD0_nrm"
+	"$phongexponenttexture" "models/weapons/cw2_shark/p90/weapon_fn_p90_57x28_LOD0_gloss"
+
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongboost" "15"
+	"$phongalbedotint" "1"
+	"$phongfresnelranges" "[0.7 0.8 1]"
+	
+	"$rimlight" "1"
+	"$rimlightboost" "7"
+	"$rimlightexponent" "25"
+	"$rimmask" "1"
+
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[ 0.01 0.01 0.01 ]"
+}

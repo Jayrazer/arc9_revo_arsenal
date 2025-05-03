@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+    "$BaseTexture" "models/weapons/cw2_shark/frf2/GIAT Industries FR-F2_RGB"
+    "$BumpMap" "models/weapons/cw2_shark/frf2/GIAT Industries FR-F2_NORMAL"
+    "$Phongexponenttexture" "models/weapons/cw2_shark/frf2/GIAT Industries FR-F2_EXPONENT"
+
+    /////////////////
+    "$color2" "[0 0 0]"                                     //do not touch this
+    "$blendtintbybasealpha" "1"                             //do not touch this
+    /////////////////
+
+    "$Phong" "1"
+    "$Phongboost" "1"
+    "$Phongalbedotint" "1"
+    "$Phongalbedoboost" "10"                                //toy around with this
+    "$Phongfresnelranges" "[1 0.1 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "0"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+       
+    /////////////////
+    "$normalmapalphaenvmapmask" "0"                         //do not touch this
+    /////////////////
+
+    "$envmap" "models/weapons/cw2_shark/frf2/specularity_00"
+    "$envmaptint" "[0.185 0.185 0.181]"
+}
