@@ -5,7 +5,7 @@ SWEP.Spawnable = true
 
 ---- FUNDAMENTALS
 
-SWEP.Slot = 2 -- Which slot the weapon is in; starts at 0
+SWEP.Slot = 3 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "Auto-5"
@@ -41,6 +41,7 @@ SWEP.TracerSize = 1
 SWEP.ShellModel = "models/weapons/khrcw2/shells/12ga_buck.mdl"
 SWEP.ShellScale = 0.4
 SWEP.ShellPitch = 90
+SWEP.ShellSounds = ARC9.ShotgunShellSoundsTable
 
 SWEP.CaseEffectQCA = 2
 
@@ -164,7 +165,7 @@ SWEP.SwayAddSights = 1
 SWEP.BarrelLength = 40
 
 -- Shooting and Firemodes
-SWEP.RPM = 300 -- How fast gun shoot
+SWEP.RPM = 200 -- How fast gun shoot
 SWEP.HeatCapacity = 120 * 1.5 -- For suppresors; how many shots for full heat With big silencer (Small silencers will make this number lower down to 70%)
 
 SWEP.Num = 6 -- How many bullets shot at once
