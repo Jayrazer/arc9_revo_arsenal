@@ -256,13 +256,13 @@ SWEP.Animations = {
 	["fire"] = {
         Source = {"fire_1", "fire_2", "fire_3"},
         EventTable = {
-			{ s = pathRK95 .. "ak74_boltrelease.wav", t = 0, v = 0.3 },
+			{ s = pathRK95 .. "ak74_boltrelease.wav", t = 0, v = 0.5 },
 		}
     },
 	["fire_sights"] = {
         Source = "fire_aim",
         EventTable = {
-			{ s = pathRK95 .. "ak74_boltrelease.wav", t = 0, v = 0.3 },
+			{ s = pathRK95 .. "ak74_boltrelease.wav", t = 0, v = 0.5 },
 		}
     },
 	["reload"] = {

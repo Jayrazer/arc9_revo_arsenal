@@ -297,7 +297,7 @@ SWEP.Animations = {
 	["reload_finish"] = {
 		Source = "reloadend",
 		Mult = 1,
-		MinProgress = 0.6,
+		MinProgress = 0.2,
 		FireASAP = true,
 		EventTable = {
 			{ s = pathAuto5 .. "deploy.wav", t = 0.1, v = 0.6 },
@@ -306,7 +306,7 @@ SWEP.Animations = {
 	["reload_finish_empty"] = {
 		Source = "reloademptyinsert",
 		Mult = 1,
-		MinProgress = 0.6,
+		MinProgress = 0.25,
 		FireASAP = true,
 		EventTable = {
 			{ s = pathAuto5 .. "boltback.wav", t = 0.07, v = 0.6 },

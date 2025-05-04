@@ -9,7 +9,7 @@ SWEP.Slot = 3 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "CZ 75 SP-01"
-SWEP.Description = ""
+SWEP.Description = "The CZ 75 is one of the finest iterations of the Browning tilting-barrel pistol design and is the original \"Wonder Nine\"; a 9mm self-loading pistol with a double-action trigger and double-stack magazine. The SP-01 SHADOW variant was designed with input from ISPC veterans and features fiber optic sights, a light trigger and high-capacity 19-round magazines as standard. \n\nOriginally from Sharksenal."
 
 SWEP.Class = "Pistol" -- In the Customization Menu
 SWEP.SubCategory = "Handguns" -- In the Spawnmenu
@@ -253,7 +253,15 @@ SWEP.Animations = {
         Source = "idle",
     },
     ["ready"] = {
-        Source = "draw",		
+        Source = "draw",
+		Mult = 1.1,
+        MinProgress = 0.75,
+		FireASAP = true,
+        --EventTable = {},
+    },
+    ["draw"] = {
+        Source = "draw",
+		Mult = 1.1,		
         MinProgress = 0.75,
 		FireASAP = true,
         --EventTable = {},
@@ -308,7 +316,7 @@ SWEP.Animations = {
 			{ s = pathCZ75 .. "clipstruggle.wav", t = 1, v = 0.6 },
 			{ s = pathCZ75 .. "clipin.wav", t = 1.1, v = 0.6 },
 			{ s = pathCZ75 .. "draw.wav", t = 1.5, v = 0.6 },
-			{ s = pathCZ75 .. "sliderelease.wav", t = 1.8, v = 0.6 },
+			{ s = pathCZ75 .. "sliderelease.wav", t = 1.7, v = 0.6 },
 		}
 	}
 }

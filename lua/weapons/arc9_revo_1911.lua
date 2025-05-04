@@ -9,7 +9,7 @@ SWEP.Slot = 3 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "Series 70"
-SWEP.Description = "The M1911 needs no introduction. Having served in TWO WORLD WARS and creating the blueprint for the modern self-loading handgun, it's still as popular as ever over 110 years later. \nThe Series 70 is a version of the 1911 marketed by Colt in the 70's with improved construction over previous civilian-market models. \n\nOriginally from Khris REVO."
+SWEP.Description = "The M1911 needs no introduction. Having served in TWO WORLD WARS and creating the blueprint for the modern self-loading handgun, it's still as popular as ever over 110 years later. \nThe Series 70 is a version of the Colt Government Model (a 1911 made explicitly for the civilian market) introduced in the 1970's that features a slightly shorter barrel than the military pattern gun. \n\nOriginally from Khris REVO."
 
 SWEP.Class = "Pistol" -- In the Customization Menu
 SWEP.SubCategory = "Handguns" -- In the Spawnmenu
@@ -19,7 +19,7 @@ SWEP.Trivia = {
     ["Caliber"] = ".45 ACP",
     ["Mechanism"] = "Short recoil",
     ["Country of Origin"] = "United States",
-    ["Year Introduced"] = "1970"
+    ["Year Introduced"] = "1911"
 }
 
 SWEP.Credits = {
