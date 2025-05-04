@@ -43,8 +43,6 @@ SWEP.ShellScale = 0.4
 SWEP.ShellPitch = 90
 
 SWEP.CaseEffectQCA = 2
-SWEP.CamQCA = 0
-SWEP.CamOffsetAng = Angle(0, 90, 180)
 
 ---- View & Worldmodel
 SWEP.ViewModel = "models/weapons/khrcw2/auto5.mdl"
@@ -93,7 +91,7 @@ SWEP.PhysBulletGravity = 1.5
 SWEP.PhysBulletDrag = 1.5
 
 -- Magazine Info
-SWEP.Ammo = "ar2" -- What ammo type this gun uses.
+SWEP.Ammo = "buckshot" -- What ammo type this gun uses.
 
 SWEP.ChamberSize = 1
 SWEP.ClipSize = 4
