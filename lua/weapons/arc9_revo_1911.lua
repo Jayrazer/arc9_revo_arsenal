@@ -9,7 +9,7 @@ SWEP.Slot = 3 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
 SWEP.PrintName = "Series 70"
-SWEP.Description = "The SR-25 is a marksman rifle designed by Eugene Stoner after joining Knight's Armament, and is essentially an improved AR-10 system with elements taken from the M16. It was primarily used by USSOCOM in a modified form known as the Mk 11 MOD 0 and has since been developed into the M110 SASS. \n\nOriginally from Khris REVO."
+SWEP.Description = "The M1911 needs no introduction. Having served in TWO WORLD WARS and creating the blueprint for the modern self-loading handgun, it's still as popular as ever over 110 years later. \nThe Series 70 is a version of the 1911 marketed by Colt in the 70's with improved construction over previous civilian-market models."
 
 SWEP.Class = "Pistol" -- In the Customization Menu
 SWEP.SubCategory = "Handguns" -- In the Spawnmenu
@@ -19,7 +19,7 @@ SWEP.Trivia = {
     ["Caliber"] = ".45 ACP",
     ["Mechanism"] = "Short recoil",
     ["Country of Origin"] = "United States",
-    ["Year Introduced"] = "1911"
+    ["Year Introduced"] = "1970"
 }
 
 SWEP.Credits = {
@@ -66,8 +66,8 @@ SWEP.WorldModelOffset = {
 SWEP.ViewModelFOVBase = 70
 SWEP.ActivePos = Vector(1, -1, 0.1)
 
-SWEP.RestPos = Vector(3, 0, 0)
-SWEP.RestAng = Angle(40, -20, 0)
+SWEP.RestPos = Vector(2, -1, -15)
+SWEP.RestAng = Angle(0, 50, 0)
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
@@ -190,8 +190,8 @@ SWEP.NPCWeight = 60
 
 -- Iron Sight and Sight Info
 SWEP.IronSights = {
-     Pos = Vector(-2.64, -1.1, 0.85),
-     Ang = Angle(0.02, 0.1, 0),
+     Pos = Vector(-1.3, -1.1, 1.16),
+     Ang = Angle(0, 0.2, 0),
      Magnification = 1.15,
      ViewModelFOV = 55,
 }
