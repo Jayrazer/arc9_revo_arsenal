@@ -64,8 +64,8 @@ SWEP.WorldModelOffset = {
 }
 
 SWEP.ViewModelFOVBase = 70
-SWEP.ActivePos = Vector(-0.25, -2, 0)
-SWEP.ActiveAng = Angle(0, 0, -5)
+SWEP.ActivePos = Vector(-0.25, -2, 1)
+SWEP.ActiveAng = Angle(0, 0, 3)
 
 SWEP.RestPos = Vector(3, 0, 0)
 SWEP.RestAng = Angle(40, -20, 0)
@@ -289,7 +289,7 @@ SWEP.Animations = {
     },
 	["reload"] = {
 		Source = "reload",
-		Mult = 0.9,
+		Mult = 0.8,
 		MinProgress = 0.9,
 		RefillProgress = 0.65,
 		FireASAP = true,
@@ -303,7 +303,7 @@ SWEP.Animations = {
 	},
 	["reload_empty"] = {
 		Source = "reload_empty",
-		Mult = 0.9,
+		Mult = 0.85,
 		MinProgress = 0.9,
 		RefillProgress = 0.53,
 		FireASAP = true,
