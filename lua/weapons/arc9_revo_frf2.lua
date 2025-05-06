@@ -22,9 +22,9 @@ SWEP.Trivia = {
 }
 
 SWEP.Credits = {
-	["Model & textures"] = "sinki1295",
-	["Animations"] = "Khris",
-	["Sounds"] = "oneshotofficial, Navarro, Battlestate Games",
+	["Model & textures"] = "1C Games",
+	["Animations"] = "speedonerd",
+	["Sounds"] = "New World Interactive, Lever Games, Bungie",
 	["Lua"] = "speedonerd"
 }
 

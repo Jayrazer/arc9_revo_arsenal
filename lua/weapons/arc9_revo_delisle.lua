@@ -8,8 +8,8 @@ SWEP.Spawnable = true
 SWEP.Slot = 3 -- Which slot the weapon is in; starts at 0
 
 ---- Name, Description, Class, Category and Trivia
-SWEP.PrintName = "De Lisle Carbine"
-SWEP.Description = ""
+SWEP.PrintName = "De Lisle"
+SWEP.Description = "A unique special forces weapon developed by the OSA during World War II, the integrally-suppressed De Lisle is one of the quietest firearms ever made. It is built on a modified Lee-Enfield action and chambered in .45 ACP, fed from M1911 magazines. Famously, the weapon's quiet report was proven by firing it off a balcony in London and into the River Thames, with no one on the street below noticing the shots. \n\nOriginally from Khris REVO."
 
 SWEP.Class = "Bolt-Action Carbine" -- In the Customization Menu
 SWEP.SubCategory = "Rifles" -- In the Spawnmenu
@@ -23,9 +23,9 @@ SWEP.Trivia = {
 }
 
 SWEP.Credits = {
-	["Model & textures"] = "sinki1295",
+	["Model & textures"] = "ynarts3D",
 	["Animations"] = "Khris",
-	["Sounds"] = "oneshotofficial, Navarro, Battlestate Games",
+	["Sounds"] = "oneshotofficial, Navarro",
 	["Lua"] = "speedonerd"
 }
 
@@ -94,7 +94,7 @@ SWEP.PhysBulletGravity = 1.5
 SWEP.PhysBulletDrag = 1.5
 
 -- Magazine Info
-SWEP.Ammo = "357" -- What ammo type this gun uses.
+SWEP.Ammo = "pistol" -- What ammo type this gun uses.
 
 SWEP.ChamberSize = 1
 SWEP.ClipSize = 7
@@ -198,7 +198,7 @@ SWEP.IronSights = {
 }
 
 -- Customization Menu Info
-SWEP.CustomizePos = Vector(22, 50, 5)
+SWEP.CustomizePos = Vector(18, 50, 5)
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizeRotateAnchor = Vector(18, -2.5, -3)
 
